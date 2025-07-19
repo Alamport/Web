@@ -2,11 +2,11 @@ import MovieCard from "../components/MovieCard"
 
 function Home() {
   const movies = [
-    {id: 1, title: "John Wick", release_date: "2020"},
-    {id: 2, title: "Terminator", release_date: "1999"},
-    {id: 3, title: "The Matrix", release_date: "1998"},
-    {id: 4, title: "Crazy Rich Asians", release_date: "2020"},
-    {id: 5, title: "Avengers", release_date: "2020"},
+    {id: 1, title: "The Sixth Sense", release_date: "1999"},
+    {id: 2, title: "The Terminal", release_date: "2004"},
+    {id: 3, title: "How to Lose a Guy in 10 Days", release_date: "2003"},
+    {id: 4, title: "Crazy Rich Asians", release_date: "2018"},
+    {id: 5, title: "No Reservations", release_date: "2007"},
   ]
 
   const handleSearch = () => {
